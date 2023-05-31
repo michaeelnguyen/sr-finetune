@@ -1,0 +1,20 @@
+services:
+    pytorch:
+      build: .
+      command: 
+      container_name: pytorch-gpu
+      ports:
+        - "8080:8080"
+      restart: always
+      volumes:
+        - ./model-server/model-store:/home/model-server/model-store
+      environment:
+        - TEMP=/tmp
+      deploy:
+        resources:
+          reservations:
+            devices:
+            - driver: nvidia
+              count: 1
+              device_ids: ['0', '3']
+              capabilities: [gpu]
