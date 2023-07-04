@@ -20,4 +20,4 @@ Real-ESRGAN and SwinIR are two deep learning models for Single-Image Super-Resol
       year={2021}
     }
 ## License and Acknowledgement
-The codes are based on [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) under BSD-3 License, [SwinIR](https://github.com/JingyunLiang/SwinIR)) under Apache 2.0 License, and [KAIR](https://github.com/cszn/KAIR) under MIT License.
+The codes are based on [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) under BSD-3 License, [SwinIR](https://github.com/JingyunLiang/SwinIR) under Apache 2.0 License, and [KAIR](https://github.com/cszn/KAIR) under MIT License.
